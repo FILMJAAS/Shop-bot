@@ -1,0 +1,5 @@
+# ไม่ติดตามไฟล์ .env (ข้อมูลลับ เช่น token)
+.env
+
+# ไม่ติดตามโฟลเดอร์ node_modules (ติดตั้งได้ใหม่จาก package.json)
+node_modules/

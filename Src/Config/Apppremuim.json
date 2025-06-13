@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "productname": "Spotify",
+            "value": "spotify",
+            "emoji": "🎵",
+            "description": "Spotify Premium Account"
+        },
+        {
+            "productname": "Canva Pro",
+            "value": "canvapro",
+            "emoji": "",
+            "description": "Canva Pro Premium Account"
+        }
+    ]
+}
