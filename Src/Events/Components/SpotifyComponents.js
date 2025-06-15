@@ -35,11 +35,8 @@ module.exports = (client) => {
                     const TextTop = new TextDisplayBuilder().setContent(`## Spotify Premium App`);
                     container.addTextDisplayComponents(TextTop);
 
-                    const Text1 = new TextDisplayBuilder().setContent(`1`);
+                    const Text1 = new TextDisplayBuilder().setContent(`เมลร้านค้า           เมลลูกค้า`);
                     container.addTextDisplayComponents(Text1);
-
-                    const Text2 = new TextDisplayBuilder().setContent(`1`);
-                    container.addTextDisplayComponents(Text2);
 
                     const buttonrow = new ActionRowBuilder().addComponents(
                         new ButtonBuilder()
@@ -50,11 +47,6 @@ module.exports = (client) => {
                         new ButtonBuilder()
                             .setLabel('ซื้อ')
                             .setCustomId('buy-button-2')
-                            .setEmoji(Apppremium.products[0].emoji)
-                            .setStyle(ButtonStyle.Primary),
-                        new ButtonBuilder()
-                            .setLabel('ซื้อ')
-                            .setCustomId('buy-button-3')
                             .setEmoji(Apppremium.products[0].emoji)
                             .setStyle(ButtonStyle.Primary),
                     );
